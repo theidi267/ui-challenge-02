@@ -1,0 +1,44 @@
+body{
+
+  background: lightgrey;
+  width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+  }
+
+main{
+
+  display: block;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+ }
+
+h1 {
+
+  font-size: 3em;  
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+
+  display: none;
+}
+
+.button2 {
+
+  background: black;
+  color: white;
+}
