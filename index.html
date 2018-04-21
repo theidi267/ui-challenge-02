@@ -14,37 +14,31 @@
       <h1>UI Challenge - Custom Form Elements</h1>
     </header>
   <main>
-    <div class='text-input-form'>
-      <div class='container'>
-        <form>
-          <h4>text input</h4>
-          <input class="username" type="text" placeholder="placeholder text"/>
-          <h4>text input w/validation error</h4>
-          <input type="password" placeholder="placeholder text" required/>
-          <p class="hidden">please enter a valid username</p>
-        </form>
-      </div>
+    <div class="container">
+      <form>
+        <h4>text input</h4>
+        <input class="username" type="text" placeholder="placeholder text"/>
+        <h4>text input w/validation error</h4>
+        <input class="password" type="password" placeholder="placeholder text" required/>
+        <p class="hidden">please enter a valid username</p>
+      </form>
     </div>
     <section class="select-box">
       <div>
         <ul id="filters">
-          <li>
-            <select id="first-select-box">
-              <option value="">please select an option ...</option>
-            </select>
-          </li>
-          <li>
-            <select id="open-select-box">
-              <option selected></option>
-              <option>option 1</option>
-              <option>option 2</option>
-              <option>option 3</option>
-              <option>option 4</option>
-              <option>option 5</option>
+            <h4>select box</h4>
+            <select class="open-select-box">
+              <option class="select">please select an option ...</option>
+              <option class="hidden">option 1</option>
+              <option class="hidden">option 2</option>
+              <option class="hidden">option 3</option>
+              <option class="hidden">option 4</option>
+              <option class="hidden">option 5</option>
             </select>
           </li>
         </ul>
       </div>
+    </section>
     <section class="check-radio-button">
       <div>
         <form class="checkbox">
@@ -59,12 +53,10 @@
           <button type="button">submit</button>
           <button type="button" class="button2">submit</button> 
         </form>
-      </div>
-      
-      
-    </section>
+      </div>  
     </section>
   </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
