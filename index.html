@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UI 02</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  
+</head>
+<body>
+    <header>
+      <h1>UI Challenge - Custom Form Elements</h1>
+    </header>
+  <main>
+    <div class="container">
+      <form>
+        <h4>text input</h4>
+        <input class="username" type="text" placeholder="placeholder text"/>
+        <h4>text input w/validation error</h4>
+        <input class="password" type="password" placeholder="placeholder text" required/>
+        <p class="hidden">please enter a valid username</p>
+      </form>
+    </div>
+    <section class="select-box">
+      <div>
+        <ul id="filters">
+            <h4>select box</h4>
+            <select class="open-select-box">
+              <option>please select an option ...</option>
+              <option class="hidden">option 1</option>
+              <option class="hidden">option 2</option>
+              <option class="hidden">option 3</option>
+              <option class="hidden">option 4</option>
+              <option class="hidden">option 5</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="check-radio-button">
+      <div>
+        <form class="checkbox-form">
+          <p>checkbox</p>
+          <input class="checkbox" type="checkbox">
+          <input class="checkbox-checked" type="checkbox" checked>
+        </form>
+        <form class="radio-form">
+            <p>radio</p>
+          <input class="radio" type="radio">
+          <input class="radio-checked" type="radio" checked>
+        </form>
+        <form class="buttons">
+            <p>buttons</p>
+          <button type="button">submit</button>
+          <button type="button" class="button2">submit</button> 
+        </form>
+      </div>  
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
