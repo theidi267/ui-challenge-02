@@ -28,7 +28,7 @@
         <ul id="filters">
             <h4>select box</h4>
             <select class="open-select-box">
-              <option class="select">please select an option ...</option>
+              <option>please select an option ...</option>
               <option class="hidden">option 1</option>
               <option class="hidden">option 2</option>
               <option class="hidden">option 3</option>
@@ -41,15 +41,18 @@
     </section>
     <section class="check-radio-button">
       <div>
-        <form class="checkbox">
-          <input type="checkbox">
-          <input type="checkbox" checked>
+        <form class="-form">
+          <p>checkbox</p>
+          <input class="checkbox" type="checkbox">
+          <input class="checkbox-checked" type="checkbox" checked>
         </form>
-        <form class="radio">
-          <input type="radio">
-          <input type="radio" checked>
+        <form class="radio-form">
+            <p>radio</p>
+          <input class="radio" type="radio">
+          <input class="radio-checked" type="radio" checked>
         </form>
         <form class="buttons">
+            <p>buttons</p>
           <button type="button">submit</button>
           <button type="button" class="button2">submit</button> 
         </form>

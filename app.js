@@ -2,10 +2,16 @@
 
 $(document).ready(function () {
 
-  $('.select').on('click', event => {
+  $('.open-select-box').on('click', event => {
 
-    $(event.currentTarget).siblings().removeClass('hidden');
+    $(event.currentTarget).children().removeClass('hidden')
+  })
 
-    console.log('.select');
-  });
+  $('.password').on('change', event => {
+
+    $(event.currentTarget).parent().find('p').removeClass('hidden')
+
+  })
+
+  
 });
